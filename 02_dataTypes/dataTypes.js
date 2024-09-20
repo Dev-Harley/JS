@@ -7,7 +7,7 @@ console.log("RioHarley");
  
 
 let Game = "Valorant"
-let Playtime = 9
+let Playtime = 9 + "Hours"
 let isPlaying = true
 let KD = 9.22
 
@@ -23,3 +23,4 @@ console.table( [Game, Playtime, isPlaying, KD])
 // Symbol => Unique
 
 console.log(typeof isPlaying)
+console.log(typeof Playtime)
