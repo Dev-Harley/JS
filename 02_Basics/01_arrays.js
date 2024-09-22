@@ -22,10 +22,11 @@
 // console.log(newArr)
 // console.log(typeof newArr)
 const myArr =[0,1,2,3,4,5,]
+console.log("A", myArr)
 
 const slicedArr = myArr.slice(1,3)
+console.log("B",slicedArr)
+
 const splicedArr = myArr.splice(1,3)
 
-console.log(myArr)
-console.log(slicedArr)
-console.log(splicedArr)
+console.log("C",splicedArr)
